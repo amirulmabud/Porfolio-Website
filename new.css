@@ -1,0 +1,183 @@
+/* CSS FILES  */
+*{
+    box-sizing: border-box;
+
+}
+/* HEADER  */
+
+.navbar{
+
+  overflow: hidden;
+  background-color: #333;
+
+}
+.mhabzlogo{
+    height: 70px;
+    width: 100px;
+    margin-left: 20px;
+    padding: 5px;
+    border-radius: 40%;
+}
+.navbar a{
+    float: right;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    margin-top: 10px;
+    font-size: 15px;
+}
+.navbar a:hover{
+    background-color: green;
+    color: black;
+
+}
+/* HEADER CLOSED */
+
+            /* IMAGES  */
+.me{
+    width: 300px;
+    height: 500px;
+}
+  /* images closed */
+
+  /* CONTAINER  */
+  .container{
+      display: flex;
+      flex-wrap: wrap;
+  }
+  .right{
+    flex: 35%;
+    background-color: #f1f1f1;
+    padding: 20px;
+    /* border: 2px solid gray; */
+  }
+  .left{
+    flex: 30%;
+    background-color: #f1f1f1;
+    padding: 20px;
+    /* border-bottom: 2px solid gray;
+    border-right: 2px solid gray; */
+  }
+
+  /* TEXT ON THE RIGHT  */
+  .cont{
+    margin-left: 8%;
+    margin-top: 25%;
+  }
+
+   .view:hover{
+    color: orange;
+    right: 20px;
+}
+span{
+    color: orangered;
+}
+.left p{
+    color: #555;
+    line-height: 22px;
+}
+/* BUTTON  */
+
+  .view{
+    background: #212121;
+    padding: 10px 10px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #fff;
+    display: inline-block;
+    margin: 30px 0;
+    border-radius: 5px ;
+}
+/* BUTTON CLOSED */
+
+span{
+    color: orangered;
+}
+ .par{
+    color: #555;
+    line-height: 22px;
+ }
+
+  /* TEXT ON THE RIGHT CLOSED */
+
+  /* //////////////// */
+
+  /* IMAGES ON RIGHT SIDE */
+
+.left {
+    width: 45%;
+    height: 80%;
+    bottom: 0;
+  
+
+    
+}
+img .me{
+  height: 500px;
+}
+.left img{
+  top: 100px;
+    height: 550px;
+    width: 500px;
+    position: absolute;
+
+    bottom: 0;
+    transition: bottom 1s, left 1s; 
+    left: 5%;
+}
+/* .left:hover .shape{
+    left: 50%;
+
+} */
+.left:hover .me{
+    left: 10%;
+
+}
+  /* BREAK FOR IMAGE SHAPE */
+
+
+img .shape{
+  height: 500px;
+  width: auto;
+}
+.me .shape{
+    top: 100px;
+    height: fit-content;
+    width: fit-content;
+    position: absolute;
+
+    bottom: 0;
+    transition: bottom 1s, left 1s; 
+    left: 5%;
+}
+/* .left:hover .shape{
+    left: 50%;
+
+} */
+.left:hover .shape{
+    right: 10%;
+
+}
+  /* BREAK FOR IMAGE SHAPE CLOSED */
+
+/* IMAGES ON RIGHT  CLOSED */
+
+
+  /* CONTAINER CLOSED */
+
+.cont{
+  width: 100%;
+  height: 400px;
+  padding: 5px;
+  position: rel;
+}
+.container{
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background: #eff4fd;
+
+}
+/* CSS FILES CLOSED */

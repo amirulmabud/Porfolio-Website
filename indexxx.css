@@ -1,0 +1,181 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+/* MAIN body */
+.container{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: #eff4fd;
+
+}
+.left a:hover{
+    color: black;
+    background:blue;
+}
+/* NAVBARR */
+nav{
+    background: url(image/mhabz.png) no-repeat;
+    background-size: 100%;
+    display: flex;
+    width: 100%;
+    margin: auto;
+    padding: 20px 0px;
+    align-items: center;
+    justify-content: space-between;
+  
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    
+}
+nav ul li a:hover{
+    color: blue;
+}
+/* NAVBARR CLOSED */
+
+/* MHABZ LOGO IMAGE */
+.mhabzlogo{
+    width: 100px;
+    height: 80px;
+    border-radius: 50%;
+    margin-left: 40px;
+
+}
+/* MHABZ LOGO IMAGE CLOSED */
+
+/* LEFT COLUMN */
+.left{
+    margin-left: 8%;
+    margin-top: 15%;
+}
+
+.left .hello{
+    color:peru;
+}
+.left h1{
+    font-size: 50px;
+    color: #212121;
+    margin-bottom: 20px;
+
+}
+
+h1 a .view:hover{
+    color: orange;
+    left: 20px;
+}
+span{
+    color: orangered;
+}
+.left p{
+    color: #555;
+    line-height: 22px;
+}
+.left a{
+    background: #212121;
+    padding: 10px 10px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #fff;
+    display: inline-block;
+    margin: 30px 0;
+    border-radius: 5px ;
+}
+/* LEFT COLUMN CLOSED */
+
+/* IMAGES ON RIGHT SIDE */
+
+.right {
+    width: 45%;
+    height: 80%;
+    position: absolute;
+    bottom: 0;
+    right: 100px;
+
+    
+}
+.right img{
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    transition: bottom 1s, left 1s;
+}
+.right:hover .shape{
+    left: 50%;
+
+}
+.right:hover .me{
+    left: 45%;
+
+}
+/* IMAGES ON RIGHT  CLOSED */
+
+/* DARK MODE CODES */
+
+.darkmode{
+    background-color: black;
+    color: white;
+}
+
+/* DARK MODE CODES CLOSED */
+.body{
+    background-color: white;
+}
+.hello{
+    font-size: 20px;
+    color: orange;
+}
+
+ /* FOOTER CSS */
+ .footer{
+
+    padding: 20px;
+    text-align: center;
+    background: #ddd;
+    margin-top: 200px;
+
+}
+ /* NAVBAR2 CSS *//* FOOTER NAV  */
+ .navbar2{
+
+    overflow: hidden;
+    background-color: NONE;
+
+}
+/* STYLE NAVBAR LINK */
+.navbar2 a{
+
+    float: left;
+    display: block;
+    color: gray;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+
+
+}
+/* RIGHT ALIGNED LINK */
+
+/* NAVBAR HOVER{} */
+.nabvar2 :hover{
+    background-color: green;
+    color: black;
+}
+/* NAVBAR CSS CLOSED*/
+
+/* FOOTER CSS CLOSED*/
+/* MAIN body CLOSED*/

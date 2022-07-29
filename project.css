@@ -1,0 +1,250 @@
+/* CSS Files */
+* {
+
+    box-sizing: border-box;
+
+}
+
+/* HEADER CSS */
+.header{
+
+    padding: 80px;
+    text-align: center;
+ background-image: url(HEADER.jpg);
+    /* background-color: azure; */
+    color: black;
+
+}
+
+/* INCREASE HEADER H1 */
+.header h1{
+
+    font-size: 40px;
+    color: white;
+    border: 1px solid black;
+    background-color: gray;
+    opacity: 0.5;
+    
+
+}
+/* HEADER CSS  CLOSED*/
+
+    /* NAVBAR CSS */
+    .navbar{
+
+        overflow: hidden;
+        background-color: #333;
+
+    }
+    /* STYLE NAVBAR LINK */
+    .navbar a{
+
+        float: left;
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 20px;
+        text-decoration: none;
+
+
+    }
+    /* RIGHT ALIGNED LINK */
+    .navbar a.right{
+
+        float: right;
+
+    }
+    /* NAVBAR HOVER{} */
+    .nabvar a:hover{
+        background-color: green;
+        color: black;
+    }
+    /* NAVBAR CSS CLOSED*/
+
+    /* CONTENT CSS */
+    .row{
+
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+    /* CREATE TWO UNEQUAL COLUMN */
+    .side{
+
+        flex: 30%;
+        background-color: #f1f1f1;
+        padding: 20px;
+        border: 2px solid gray;
+      
+
+    }
+    
+
+
+    
+
+    .main {
+
+        flex: 40%;
+        background-color: white;
+        padding: 20px;
+        border-left:2px solid gray ;
+        border-right: 2px solid gray;
+        border-bottom: 2px solid gray;
+
+      
+
+    }
+
+    .main2 {
+
+        flex: 30%;
+        background-color: white;
+        padding: 20px;
+        border-right:2px solid gray ;
+        border-left:2px solid gray ;
+        border-bottom: 2px solid gray;
+       
+
+    }
+    /* KIOKS WITH ME PICTURE */
+
+    .kioskwithme{
+        width: 500px;
+        height: 420px;
+        padding: 5px;
+        margin-left: 30px;
+        align-items: center;
+    }
+
+    /* KIOKS WITH ME PICTURE CLOSED*/
+
+    /* MAIN2 PARAGRAPH  */
+    .main2paragraph{
+        padding: 5px;
+        margin: 15px;
+    }
+
+    /* DEVELOPMENT AND TESTING PARAGRAPH */
+    p.developmentparagraph{
+        margin: 10px; 
+        padding: 10px; 
+        font-size: 15px ;
+    }
+    .dryrunparagraph{
+        margin: 10px; 
+        padding: 10px; 
+        font-size: 15px ;
+        
+    }
+    .summaryparagraph{
+        margin: 10px; font-size: 15px;
+   
+    }
+    /* DEVELOPMENT AND TESTING PARAGRAPH CLOSED*/
+
+    /* MAIN2 PARAGRAPH CLOSED */
+
+
+    /* CONTENT CSS CLOSED*/
+
+    /* FOOTER CSS */
+    .footer{
+
+        padding: 20px;
+        text-align: center;
+        background: #ddd;
+
+    }
+    /* NAVBAR2 CSS *//* FOOTER NAV  */
+    .navbar2{
+
+        overflow: hidden;
+        background-color: NONE;
+
+    }
+    /* STYLE NAVBAR LINK */
+    .navbar2 a{
+
+        float: left;
+        display: block;
+        color: gray;
+        text-align: center;
+        padding: 14px 20px;
+        text-decoration: none;
+
+
+    }
+    /* RIGHT ALIGNED LINK */
+    .navbar2 a.right{
+
+        float: right;
+
+    }
+    /* NAVBAR HOVER{} */
+    .nabvar2 :hover{
+        background-color: green;
+        color: black;
+    }
+    /* NAVBAR CSS CLOSED*/
+
+    /* CODE FOR TAB */
+        .tab{
+            tab-size: 2;
+        }
+
+    /* CODE FOR TAB CLOSED */
+
+    /* TESTING IMAGE */
+        .testpicture{
+            margin-right: 5px;
+            margin-left: 5px;
+            padding: 10px;
+        }
+
+    /* TESTING IMAGE CLOSED */
+
+    /* CODING PICTURE */
+    .codingpicture{
+        padding: 5px;
+       
+    }
+    /* CODING PICTURE CLOSED */
+    /* LAST ROW  */
+
+    .main3{
+        flex: 35%;
+        background-color: white;
+        padding: 20px;
+        border-left:2px solid gray ;
+        border-right: 2px solid gray;
+        border-bottom: 2px solid gray;
+
+    }
+
+    .main4{
+        flex: 45%;
+        background-color: white;
+        padding: 20px;
+        border-left:2px solid gray ;
+        border-right: 2px solid gray;
+        border-bottom: 2px solid gray;
+
+    }    
+    /* LAST ROW  CLOSED  */
+
+    /* POS BACK IMAGES */
+    .posback{
+        height: 200px;
+        width: 220px;
+    }
+
+    /* SCREEN LAYOUT */
+    .screenlayout{
+        height: 250px;
+        width: 300px;
+    }
+    /* SCREEN LAYOUT CLOSED*/
+
+    /* FOOTER CSS CLOSED*/
+    

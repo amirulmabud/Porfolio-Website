@@ -1,0 +1,63 @@
+  /* SCREEN LAYOUT - WHEN THE SCREEN IS LESS THAN 700PX WIDE */
+
+  @media screen and (max-width:700px) {
+
+    nav{
+        height: 100px;
+     
+    }
+    a{
+        font-size: 20px;
+    }
+  
+   .me{
+       width: 350px;
+       height: 180;
+   }
+   .right{
+       position: relative;
+       margin-left: 50%;
+   }
+   .left .hello{
+      color:peru;
+      font-size: 30px;
+  }
+
+   
+
+}
+
+ /* SCREEN LAYOUT - WHEN THE SCREEN IS LESS THAN 400PX WIDE */
+
+ @media screen and (max-width:400px) {
+
+    
+
+    
+      nav{
+          height: 50px;
+       
+      }
+      nav ul li{
+          margin-right: 2px;
+          display: inline-block;
+      }
+      a{
+          font-size: 10px;
+         
+      }
+     
+     .me{
+         width: 400px;
+         height: 200px;
+     }
+     .right{
+         position: relative;
+         margin-left: 50%;
+     }
+     .left .hello{
+        color:peru;
+        font-size: 30px;
+    }
+
+}

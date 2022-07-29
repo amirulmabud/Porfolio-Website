@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="new.css">
+    <style>
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: white;
+          
+            color: black;
+            font-size: 25px;
+
+
+        }
+        .dark-mode{
+            background-color: black;
+            color: white;
+        }
+
+    </style>
+</head>
+   <!-- NAVBAR CODE  -->
+    <nav class="navbar">
+        <img class="mhabzlogo" src="image/mhabz.png" alt="">
+     
+        <a href="index.html">Home </a>
+       <a href="biodata.html">Portfolio </a>
+       <a href="contact.html">Contact </a>
+       <a href="project.html">Projects </a>
+       <a onclick="myFunction()">Dark mode</a>
+       
+    </nav>
+    <!-- NAVBAR CODE  CLOSED-->
+<body>
+    <div class="container">
+          <!-- LEFT COLUMN -->
+       
+        <div class="left">
+            <div class="cont">
+            <img src="image/web.png" alt="" class="shape">
+            <img src="image/amirulmabud.png" alt="" class="me">
+        </div>
+        </div>
+   <!-- LEFT COLUMN CLOSED-->
+
+   <!-- RIGHT COLUMN  -->
+
+        <div class="right">
+            <div class="cont">
+          
+            <h1>I'm Mabud <span class="name">Amirul</span></h1>
+
+            <p class="par">This is my official portfolio Website to show <br> <br> 
+            some details about me and my skills.</p>
+    
+    
+            <a href="biodata.html" class="view"> VIEW DETAILS</a>
+        </div>
+    </div>
+    <!-- RIGHT COLUMN CLOSED -->
+    </div>
+  
+    
+    
+
+    <script >
+    function myFunction ( ) {
+        var element = document.body;
+        element.classList.toggle("dark-mode");
+    }</script>
+</body>
+</html>
